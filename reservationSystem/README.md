@@ -86,5 +86,5 @@ The **ReservationSystem** application allows users to view available conservatio
 ## Contact
 
 - **Project Maintainer**: Ryan Mota
-- **Email**: [ryanmota@example.com](mailto:ryanmota@example.com)
+- **Email**: [Email Me](mailto:ryancodes00@gmail.com)
 - **GitHub**: [xGentuso](https://github.com/xGentuso)
