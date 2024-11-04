@@ -1,27 +1,90 @@
-# SportsStoreNS
+## **Reservation System**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+## Overview
 
-## Development server
+The **ReservationSystem** application allows users to view available conservation areas in the Niagara region and check their reservation status. The system is designed to provide a simple interface for exploring areas and viewing existing reservations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [Overview](#overview)
+- [Features](#features)
+- [Operations](#operations)
+  - [Browse Conservation Areas](#browse-conservation-areas)
+  - [View Reservations](#view-reservations)
+- [Usage](#usage)
+- [Contact](#contact)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+### Browse Conservation Areas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **View Available Areas**: Users can explore a list of conservation areas with details such as name, available time slots, and prices.
 
-## Running unit tests
+### View Reservations
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **View Existing Reservations**: Users can check their existing reservations, including reservation details such as time slot and area.
 
-## Running end-to-end tests
+## Operations
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Browse Conservation Areas
 
-## Further help
+- **Conservation Areas List**: Users can view a complete list of conservation areas and their available time slots.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### View Reservations
+
+- **Reservations List**: Users can view their current reservations, with details on the time slot and area reserved.
+
+## Usage
+
+### Browse Conservation Areas
+
+1. **View Available Areas**:
+   - Navigate to the Conservation Areas List page to view all available areas.
+   - Check the available time slots for each area.
+
+### View Reservations
+
+1. **View Existing Reservations**:
+   - Navigate to the Reservations List page to view your current bookings.
+   - Review the reservation details, such as the time slot and area.
+
+### Installation
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/xGentuso/AngularApp1.git
+   ```
+
+2. **Project Directory**:
+   Navigate to the project directory:
+   ```sh
+   cd reservationSystem
+   ```
+
+3. **Set Up Dependencies**:
+   Install dependencies:
+   ```sh
+   npm install
+   ```
+
+4. **Run Angular Development Server**:
+   Angular development server:
+   ```sh
+   ng serve
+   ```
+   - Open your browser and go to http://localhost:4200/ to view the application.
+
+5. **Run JSON Server**
+   JSON server:
+   ```sh
+   npm run json
+   ```
+   - Open your browser and go to http://localhost:3500/conservationAreas to view list of Conservation.
+   - Open your browser and go to http://localhost:3500/reservations to view list of Reservations.
+---
+
+## Contact
+
+- **Project Maintainer**: Ryan Mota
+- **Email**: [Email Me](mailto:ryancodes00@gmail.com)
+- **GitHub**: [xGentuso](https://github.com/xGentuso)
